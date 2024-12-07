@@ -1,0 +1,165 @@
+[
+    {
+        "model": "canchas_deportivas.categoria",
+        "pk": 1,
+        "fields": {
+            "nombre": "Futbol"
+        }
+    },
+    {
+        "model": "canchas_deportivas.categoria",
+        "pk": 2,
+        "fields": {
+            "nombre": "Futbol Sala"
+        }
+    },
+    {
+        "model": "canchas_deportivas.categoria",
+        "pk": 3,
+        "fields": {
+            "nombre": "Voleibol"
+        }
+    },
+    {
+        "model": "canchas_deportivas.categoria",
+        "pk": 4,
+        "fields": {
+            "nombre": "B�squetbol"
+        }
+    },
+    {
+        "model": "canchas_deportivas.categoria",
+        "pk": 6,
+        "fields": {
+            "nombre": "Tenis"
+        }
+    },
+    {
+        "model": "canchas_deportivas.cancha",
+        "pk": 1,
+        "fields": {
+            "nombre": "Estadio Verde",
+            "categoria": 1,
+            "ubicacion": "Calle 10 de Noviembre, entre la Avenida 6 de Marzo y Calle La Paz, Zona Villa Adela, El Alto, Bolivia",
+            "descripcion": "Cancha de f�tbol de c�sped , ideal para partidos r�pidos y entrenamientos. Cuenta con una infraestructura sencilla pero funcional, con una malla perimetral que garantiza seguridad durante los juegos",
+            "precio_hora_regular": "80.00",
+            "precio_hora_nocturno": "100.00",
+            "tipo_superficie": "C�sped Natural",
+            "disponible": true,
+            "created": "2024-12-07T14:30:41.667Z",
+            "updated": "2024-12-07T19:01:00.229Z"
+        }
+    },
+    {
+        "model": "canchas_deportivas.cancha",
+        "pk": 2,
+        "fields": {
+            "nombre": "El Rayo Cementado",
+            "categoria": 2,
+            "ubicacion": "Avenida 6 de Marzo, entre Calle 1 de Mayo y Calle Las Am�ricas, Zona Alto Pira�, El Alto, Bolivia.",
+            "descripcion": "Una cancha de f�tbol de concreto, adecuada para partidos r�pidos y encuentros informales. Es un lugar frecuentado por equipos locales que buscan practicar en un espacio de f�cil acceso y buena visibilidad.",
+            "precio_hora_regular": "30.00",
+            "precio_hora_nocturno": "40.00",
+            "tipo_superficie": "Concreto",
+            "disponible": true,
+            "created": "2024-12-07T14:57:01.718Z",
+            "updated": "2024-12-07T15:42:38.338Z"
+        }
+    },
+    {
+        "model": "canchas_deportivas.cancha",
+        "pk": 3,
+        "fields": {
+            "nombre": "La Jaula",
+            "categoria": 2,
+            "ubicacion": "Calle 12, entre Avenida Juan Pablo II y Calle 8 de Diciembre, Zona Callej�n de la Paz, El Alto, Bolivia.",
+            "descripcion": "Cancha de f�tbol sala en una ubicaci�n c�ntrica, cerca de puntos comerciales. La cancha est� bien iluminada y es usada para eventos y torneos locales, siendo muy popular en la comunidad de El Alto.",
+            "precio_hora_regular": "40.00",
+            "precio_hora_nocturno": "55.00",
+            "tipo_superficie": "C�sped Artificial",
+            "disponible": true,
+            "created": "2024-12-07T15:04:14.641Z",
+            "updated": "2024-12-07T15:46:41.127Z"
+        }
+    },
+    {
+        "model": "canchas_deportivas.cancha",
+        "pk": 4,
+        "fields": {
+            "nombre": "El Sol Naciente",
+            "categoria": 3,
+            "ubicacion": "Calle 12, entre Avenida 14 de Septiembre y Calle 8 de Diciembre, Zona Callej�n de la Paz, El Alto, Bolivia.",
+            "descripcion": "Cancha de voleibol de arena, con un ambiente relajado y vistas panor�micas hacia la ciudad de La Paz. Es un lugar popular para entrenamientos informales, especialmente en la temporada de verano.",
+            "precio_hora_regular": "30.00",
+            "precio_hora_nocturno": "35.00",
+            "tipo_superficie": "Arena",
+            "disponible": true,
+            "created": "2024-12-07T15:10:32.053Z",
+            "updated": "2024-12-07T18:55:54.780Z"
+        }
+    },
+    {
+        "model": "canchas_deportivas.cancha",
+        "pk": 5,
+        "fields": {
+            "nombre": "Arena de Acero",
+            "categoria": 3,
+            "ubicacion": "Calle 1, entre Avenida H�roes del Alto y Calle 12 de Octubre, Zona El Tejar, El Alto, Bolivia.",
+            "descripcion": "Cancha de voleibol con piso de concreto, bien iluminada para juegos nocturnos. Se encuentra cerca de la parada de transporte p�blico y es muy popular entre los habitantes de la zona por su accesibilidad y comodidad.",
+            "precio_hora_regular": "25.00",
+            "precio_hora_nocturno": "30.00",
+            "tipo_superficie": "Concreto",
+            "disponible": true,
+            "created": "2024-12-07T15:24:06.539Z",
+            "updated": "2024-12-07T18:50:57.664Z"
+        }
+    },
+    {
+        "model": "canchas_deportivas.cancha",
+        "pk": 6,
+        "fields": {
+            "nombre": "Altiplano B�squet",
+            "categoria": 4,
+            "ubicacion": "Calle 4, entre Avenida Sat�lite y Calle Max Fern�ndez, Zona Villa Tunari, El Alto, Bolivia.",
+            "descripcion": "Espaciosa cancha de baloncesto con l�neas reglamentarias, aros reforzados y un dise�o que favorece el rendimiento de los jugadores. Su iluminaci�n nocturna asegura partidos c�modos en cualquier horario. Ideal para entrenamientos, juegos recreativos y torneos locales.",
+            "precio_hora_regular": "20.00",
+            "precio_hora_nocturno": "25.00",
+            "tipo_superficie": "Concreto",
+            "disponible": true,
+            "created": "2024-12-07T16:29:47.559Z",
+            "updated": "2024-12-07T16:33:06.333Z"
+        }
+    },
+    {
+        "model": "canchas_deportivas.cancha",
+        "pk": 7,
+        "fields": {
+            "nombre": "7 Estrellas",
+            "categoria": 4,
+            "ubicacion": "Avenida Bolivia, esquina Calle San Jos�, frente al Mercado 16 de Julio, Zona 16 de Julio, El Alto, Bolivia.",
+            "descripcion": "Espacio deportivo dise�ado para aficionados y profesionales del baloncesto. La cancha cuenta con un suelo de cemento perfectamente nivelado y l�neas bien marcadas, asegurando un juego fluido. Con gradas disponibles para espectadores y una excelente iluminaci�n nocturna, es ideal tanto para partidos amistosos como para torneos locales.",
+            "precio_hora_regular": "20.00",
+            "precio_hora_nocturno": "25.00",
+            "tipo_superficie": "Concreto",
+            "disponible": true,
+            "created": "2024-12-07T16:32:54.515Z",
+            "updated": "2024-12-07T16:34:22.890Z"
+        }
+    },
+    {
+        "model": "canchas_deportivas.cancha",
+        "pk": 8,
+        "fields": {
+            "nombre": "Grand Slam",
+            "categoria": 6,
+            "ubicacion": "Avenida Los Andes, entre Calle 4 y Calle 5, Zona 16 de Julio, El Alto, Bolivia. Frente a la Plaza Mayor.",
+            "descripcion": "Ubicada en una zona tranquila de El Alto, cerca de la Plaza Mayor. Es ideal para partidos amateurs y entrenamientos. Se encuentra en excelentes condiciones, ofreciendo una experiencia de juego de calidad para todos los niveles.",
+            "precio_hora_regular": "10.00",
+            "precio_hora_nocturno": "12.00",
+            "tipo_superficie": "Concreto",
+            "disponible": true,
+            "created": "2024-12-07T17:49:40.899Z",
+            "updated": "2024-12-07T17:49:40.899Z"
+        }
+    }
+]
